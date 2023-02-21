@@ -46,14 +46,14 @@ function playRound(playerSelection, computerSelection) {
 const input = prompt("Add your input below");
 //takes a user input and converts it to lower case
 const playerSelection = input.toLowerCase();
-//computer choice
+//computer choice which is random
 const computerSelection = getComputerChoice();
 //prints results of the function: (single round) with inputs from playerSelection and computerSelection
 
-function game() {
+/*function game() {
   for (let i = 0; i < 5; i++) {
     playRound(playerSelection, computerSelection);
   }
 }
 
-game();
+game();*/
